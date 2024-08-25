@@ -115,6 +115,7 @@
                 <div class="flex flex-col items-center justify-center space-y-5 flex-1">
                     <h1 class="text-4xl font-extrabold text-black text-center">A barn house of this design has a <br> striking appearance</h1>
                     <p class="text-base text-center font-medium text-[#494949]">The barn house captivates with its blend of rustic charm and modern <br> sophistication, featuring weathered wood, sleek metal accents, and large <br> windows that flood the space with natural light.</p>
+                    <!-- button (View Details) -->
                     <button class="flex gap-2 p-3 rounded-3xl bg-colour-green-light ">View Details
                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 bg-colour-green rounded-full">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
@@ -132,7 +133,7 @@
   <main class="bg-colour-lightblue">
   <!-- ...........our design start -->
     <section class="container mx-auto pt-14">
-      <div class="flex flex-col mb-20 md:flex-row md:gap-9"> 
+      <div class="flex flex-col mx-5 mb-20 gap-6 md:mb-20 md:flex-row md:gap-9"> 
   <!-- text and cards -->
         <div class="flex flex-col flex-1 space-y-6">
         <!-- button (About Us) -->
@@ -201,7 +202,7 @@
         </div>
 
         <!-- cards section -->
-        <div class="flex flex-col justify-center items-center md:flex-row md:gap-6 mb-20">
+        <div class="flex flex-col justify-center items-center gap-6 md:flex-row md:gap-6 mb-20">
          
           <!-- card-1 -->
            <div class="flex flex-col space-y-3 bg-colour-card1 rounded-2xl p-6">
@@ -246,10 +247,10 @@
   
 
       <!--......Latest Portfolio section start.... -->
-      <section>
+      <section class="container mx-auto pt-14 ">
         <div>
           <!-- text part -->
-          <div class="flex flex-col justify-center items-center flex-1 space-y-6">
+          <div class="flex flex-col justify-center items-center flex-1 space-y-6 p-6">
             <!-- button (Explore our Latest works) -->
           <button class="flex items-center gap-1 p-2 bg-white text-black rounded-3xl w-[190px] h-[38px] font-bold text-xs">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -257,14 +258,73 @@
               </svg>
               Explore our Latest works</button>
             <!-- texts -->
-          <h1 class="font-extrabold text-[#212121] text-4xl">Our Latest Portfolio</h1>
+          <h1 class="font-extrabold text-[#212121] text-2xl md:text-4xl">Our Latest Portfolio</h1>
           <p class="font-medium text-base text-[#494949] text-center" >The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.
           </p>
           </div>
-          <!-- grid part -->
-          <div>
 
-          </div>
+
+      <!-- grid part -->
+          
+            <!-- 1st grid part -->
+          <div class=" mt-10 flex flex-col justify-center items-center md:grid md:grid-cols-12 gap-6  ">
+
+            <div class="md:col-start-1	md:col-end-9 md:p-6 rounded-2xl shadow-2xl stroke-[#E9E9E9]  flex justify-center items-center flex-col md:flex-row m-8 space-y-6" >
+            <!-- image-1 -->
+              <div class=" flex justify-items-stretch	">
+              <img class=" pt-6 w-[287px] h-[191px]  rounded-2xl md:w-[260px] md:h-[179px]" src="assets/img1.png" alt="">
+              </div>
+            <!-- text -->
+              <div class=" flex flex-col md:w-3/5 p-6	">
+              <h2 class="text-[#494949] text-2xl font-extrabold">Commercial</h2>
+              <p class="text-[#737373] text-base font-medium">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+               <!-- button (View Details) -->
+               <button class="flex gap-2 p-3 rounded-3xl bg-transparent">View Details
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 bg-colour-green rounded-full">
+               <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+             </svg>
+           </button>
+         </div>
+        </div>
+
+        <!-- image -2 -->
+         <div class=" grid-cols-1 shadow-2xl stroke-[#E9E9E9] p-6 rounded-2xl flex justify-center md:w-[374px]">
+          <img class="w-[295px]" src="assets/img2.png" alt="">
+         </div>
+      </div>
+
+
+      <!-- 2nd grid part -->
+      <div class="flex flex-col-reverse md:grid md:grid-cols-4 gap-6 m-6 ">
+        <!-- image-3 -->
+        <div class="shadow-2xl stroke-[#E9E9E9] p-6 rounded-2xl flex justify-center">
+          <img class="w-[295px] md:w-[274px]" src="assets/img3.png" alt="">
+        </div>
+        <!-- image-4 -->
+        <div class="col-span-2 rounded-2xl shadow-2xl stroke-[#E9E9E9] p-6 flex justify-center items-center flex-col space-y-6 md:flex-row gap-6" >
+                      <!-- image-->
+                      <div class="rounded-2xl	">
+                        <img class=" w-[295px] md:w-[260px] md:h-[179px]" src="assets/img4.png" alt="">
+                        </div>
+                      <!-- text -->
+                        <div class=" flex flex-col	">
+                        <h2 class="text-[#494949] text-2xl font-extrabold">Commercial</h2>
+                        <p class="text-[#737373] text-base font-medium">The barn house captivates with its blend of rustic charm and modern. </p>
+                         <!-- button (View Details) -->
+                         <button class="flex gap-2 p-3 rounded-3xl bg-transparent">View Details
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 bg-colour-green rounded-full">
+                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                       </svg>
+                     </button>
+                   </div>
+        </div>
+        <!-- image-5 -->
+        <div class="shadow-2xl stroke-[#E9E9E9] p-6 rounded-2xl flex justify-center ">
+          <img class="w-[295px] md:w-[274px]" src="assets/img5.png" alt="">
+        </div>
+
+      </div>
+
         </div>
       </section>
       <!--......Latest Portfolio section end.... -->
